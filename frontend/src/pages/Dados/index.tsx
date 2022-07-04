@@ -1,5 +1,6 @@
 import ImagemProfile from "../../assets/img/avatar.svg";
-import "../../../src/index.css";
+
+import "./styles.css";
 
 import React, { useState, useEffect } from "react";
 const words = ["retorno de férias!", "saída de férias!"];
@@ -110,7 +111,7 @@ function Dados() {
               </div>
               <div className="modal-body form-inline">
                 {/* COLOCAR AQUI UMA BARRA DE PESQUISA */}
-                <input
+                <input id="searchBar"
                   type="search"
                   className="form-control"
                   placeholder="Pesquisar"
@@ -133,7 +134,7 @@ function Dados() {
           </div>
         </div>
       </div>
-      <section id="about" className="page-section bg-secondary text-white mb-0">
+      <section id="about" className="about page-section bg-secondary text-white mb-0">
         <div className="container">
           <h2 className="page-section-heading text-center text-uppercase text-white">
             Sobre

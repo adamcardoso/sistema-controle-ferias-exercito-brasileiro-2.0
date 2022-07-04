@@ -1,18 +1,15 @@
 .body {
+    text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
 
 
-#login-tela{
-    padding-top: 300px;
+.custom-control-label{
+    padding-left: 5px;
 }
 
-.bg-login-image {
-	background: url(../../assets/img/imag1.jpeg);
-	background-position: center;
-	background-size: cover
-}
+
 
 .login-box {
     margin-top: 75px;
