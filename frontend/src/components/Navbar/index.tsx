@@ -25,7 +25,7 @@ function Navbar(){
                             </li>
 
                             <li className="nav-item mx-0 mx-lg-1">
-                                <a className="nav-link py-3 px-0 px-lg-3 rounded" href="login-dashboard.html">Administrador</a>
+                                <a className="nav-link py-3 px-0 px-lg-3 rounded" href="admin">Administrador</a>
                             </li>
                         </ul>
                     </div>

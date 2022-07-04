@@ -1,5 +1,4 @@
 import ImagemProfile from "../../assets/img/avatar.svg";
-import "./styles.css";
 import "../../../src/index.css";
 
 import React, { useState, useEffect } from "react";
